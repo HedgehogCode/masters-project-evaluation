@@ -1,0 +1,13 @@
+{
+    "dae_0.04314": "DMSP (DnCNN)",
+    "drunet_0.0-0.2": "DPIR \\( (\\DRUNet) \\)",
+    "dcnn_0.05": "\\( \\DCNN_{0.05} \\)",
+    "drcnn_0.05": "\\( \\DRCNN_{0.05} \\)",
+    "dunet_0.05": "\\( \\DUNet_{0.05} \\)",
+    "dunet+_0.05": "\\( \\DUNet_{0.05}^{+} \\)",
+    "drunet+_0.05": "\\( \\DRUNet_{0.05}^{+} \\)",
+    "dunet+_0.0-0.2": "\\( \\DUNet_{0 \\ldots 0.2}^{+} \\)",
+    "drunet+_0.0-0.2": "\\( \\DRUNet_{0 \\ldots 0.2}^{+} \\)",
+    "drugan+-lambda-zero_0.0-0.2": "\\( \\DRUGAN_{0 \\ldots 0.2}^{+} \\; (\\lambda = 0) \\)",
+    "drugan+_0.0-0.2": "\\( \\DRUGAN_{0 \\ldots 0.2}^{+} \\)"
+}

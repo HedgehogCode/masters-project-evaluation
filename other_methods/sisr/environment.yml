@@ -1,0 +1,10 @@
+name: sr-eval
+dependencies:
+  - python=3.9
+  - cython
+  - pip
+  - pip:
+    - tensorflow
+    - tensorflow-datasets
+    - image_similarity_measures
+    - git+https://github.com/HedgehogCode/tensorflow-datasets-bw.git@0.7.0
