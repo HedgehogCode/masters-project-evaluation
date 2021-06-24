@@ -1,0 +1,15 @@
+name: dmsp
+channels:
+  - nvidia
+dependencies:
+  - python=3.8
+  - cudatoolkit=11.0
+  - cudnn=8
+  - cython
+  - pip
+  - pip:
+    - tensorflow==2.4.1
+    - tensorflow-datasets
+    - image_similarity_measures
+    - git+https://github.com/HedgehogCode/tensorflow-datasets-bw.git@0.7.0
+    - git+https://github.com/HedgehogCode/deep-plug-and-play-prior

@@ -1,0 +1,17 @@
+name: dpir
+channels:
+  - pytorch
+dependencies:
+  - python=3.8
+  - pytorch=1.7.1
+  - torchvision
+  - torchaudio
+  - cudatoolkit=10.2
+  - cython
+  - pip
+  - pip:
+    - tensorflow
+    - tensorflow-datasets
+    - image_similarity_measures
+    - git+https://github.com/HedgehogCode/tensorflow-datasets-bw.git@0.7.0
+    - git+https://github.com/HedgehogCode/deep-plug-and-play-prior

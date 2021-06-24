@@ -1,0 +1,16 @@
+name: dncnn
+channels:
+  - pytorch
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=10.2
+  - cython
+  - pip
+  - pip:
+    - tensorflow
+    - tensorflow-datasets
+    - image_similarity_measures
+    - git+https://github.com/HedgehogCode/tensorflow-datasets-bw.git@0.7.0

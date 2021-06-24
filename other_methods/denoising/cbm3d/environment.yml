@@ -1,0 +1,12 @@
+name: bm3d
+dependencies:
+  - python=3.9
+  - cython
+  - libopenblas
+  - pip
+  - pip:
+    - bm3d==3.0.9
+    - tensorflow
+    - tensorflow-datasets
+    - image_similarity_measures
+    - git+https://github.com/HedgehogCode/tensorflow-datasets-bw.git@0.7.0
